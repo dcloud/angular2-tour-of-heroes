@@ -1,0 +1,23 @@
+{
+  "name": "angular2-tour-of-heroes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "angular2": "2.0.0-alpha.44",
+    "systemjs": "0.19.2"
+  },
+  "devDependencies": {
+    "jasmine-core": "2.3.4",
+    "live-server": "^0.8.2",
+    "typescript": "^1.6.2"
+  },
+  "scripts": {
+    "tsc": "tsc -p src -w",
+    "start": "live-server --port=8000 --open=src",
+    "test": "live-server --port=8000 --open=src/unit-tests.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
